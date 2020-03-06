@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-This function will use the function above to find the inverse function of the last matrix.
+This function will find the inverse function of the last matrix.
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv <- x$getI()
